@@ -15,22 +15,22 @@ opacity = 0.95
 decorations = "buttonless"
 
 [font]
-size = 12
+size = 11.5
 
 [font.bold]
-family = "FiraMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "FiraMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "FiraMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "FiraMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Regular"
 
 [cursor]
