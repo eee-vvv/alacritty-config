@@ -1,5 +1,5 @@
 [general]
-import = ["./themes/catppuccin-mocha.toml"]
+import = ["./themes/oxocarbon.toml"]
 
 # Remove old import at the bottom of the file
 [window.padding]
@@ -7,7 +7,7 @@ x = 3
 y = 3
 
 [terminal.shell]
-program = "/bin/zsh"
+program = "/bin/bash"
 
 [window]
 title = "terminal"
