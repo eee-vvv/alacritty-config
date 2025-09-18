@@ -1,5 +1,5 @@
 [general]
-import = ["./themes/oxocarbon.toml"]
+import = ["./themes/modus-vivendi.toml"]
 
 # Remove old import at the bottom of the file
 [window.padding]
@@ -7,31 +7,19 @@ x = 3
 y = 3
 
 [terminal.shell]
-program = "/bin/bash"
+program = "/bin/zsh"
 
 [window]
 title = "terminal"
-opacity = 0.95
+opacity = 1.0
 decorations = "buttonless"
 
 [font]
 size = 11.5
-
-[font.bold]
-family = "FiraCode Nerd Font Mono"
-style = "Bold"
-
-[font.bold_italic]
-family = "FiraCode Nerd Font Mono"
-style = "Bold Italic"
-
-[font.italic]
-family = "FiraCode Nerd Font Mono"
-style = "Italic"
-
-[font.normal]
-family = "FiraCode Nerd Font Mono"
-style = "Regular"
+normal = { family = "Fira Code", style = "Regular" }
+bold = { family = "Fira Code", style = "Bold" }
+italic = { family = "Fira Code", style = "Light" }
+bold_italic = { family = "Fira Code", style = "Medium" }
 
 [cursor]
 
